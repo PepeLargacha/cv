@@ -1,123 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pepe Largacha Personal Site</title>
-    <link rel="icon" href="https://emoji-uc.akamaized.net/orig/0c/f0c7fd9dcb878d4ac26424608addd1.png">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&family=FiraCode&display=swap"
+        rel="stylesheet">
+    <title>Pepe's Page</title>
 </head>
 
 <body>
-    <table cellspacing="20">
-        <tr>
-            <td><img src="86388846-modified.png" alt="Pedro Largacha profile picture" width="200"></td>
-            <td>
-                <h1>Pedro Largacha</h1>
-                <p><em>Developer and Entrepreneur</em></p>
-                <p>
-                    I am a young python developer, that loves life, my wife, coffee and beer. Freshly married, although we live together for
-                    almost 6 years.
-                </p>
-            </td>
-        </tr>
-    </table>
-    <br>
-    <a href="contacts.html">My Contact</a>
-    <a href="hobbies.html">| My Hobbies</a>
-    <hr size="2">
-    <h3>Portfolio</h3>
-    <ul>
-        <li><a href="https://github.com/PepeLargacha">GitHub/PepeLargacha</a></li>
-        <li><a href="https://replit.com/@PedroLargacha">Replit/PedroLargacha</a></li>
-    </ul>
-    <hr size="2">
-    <h3>Work Experience</h3>
     
-    <table width="600">
-        <thead>
-            <tr>
-                <th align="left">Partner</th>
-                <th>Next Gen eSports</th>
-                <th align="right">Jun, 2020 - May, 2022</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Executive Director</td>
-                <td align="center">Vila Velha, Brazil</td>
-            </tr>
-        </tbody> 
-    </table>
-    <ul>
-        <li>Built the project from scratch.</li>
-        <li>Made a partnership with Ceará Sporting Clube, in eSports.</li>
-        <li>Manage different games, and all players, including payroll.</li>
-        <li>Migrate the company to crypto projects after the NFT games boom.</li>
-    </ul>
-    <table width="600">
-        <thead>
-            <tr>
-                <th align="left">Product Manager</th>
-                <th>Tarenas Tournaments</th>
-                <th align="right">2019 - May, 2020</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Back and Front-end teams</td>
-                <td align="center">Pelotas, Brazil</td>
-            </tr>
-        </tbody> 
-    </table>
-    <ul>
-        <li>Helped the company to create work-flows to development life cycle</li>
-        <li>Worked using Jira on detailing user histories for the development team</li>
-        <li>Worked with the UX specialist building and testing prototypes.</li>
-    </ul>
-    <table width="600">
-        <thead>
-            <tr>
-                <th align="left">Senior Process Analyst</th>
-                <th>BNY Mellon</th>
-                <th align="right">2011 - 2017</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Product Owner</td>
-                <td align="center">Rio de Janeiro, Brazil</td>
-            </tr>
-        </tbody> 
-    </table>
-    <ul>
-        <li>Worked with multi development teams, building internal and external products.</li>
-        <li>Managed the regulatory task, that has the goal of adapting several systems to the new regulatory standards in Brazil
-        (ICVM 555).</li>
-    </ul>
-    <hr size="2">
-    <h3>Skills</h3>
-    <table cellspacing="10">
-        <tr>
-            <td>Scrum/Kanban</td>
-            <td>⭐⭐⭐⭐★</td>
-            <td>Agile Management</td>
-            <td>⭐⭐⭐⭐★</td>
-        </tr>
-        <tr>
-            <td>Math and Statistics</td>
-            <td>⭐⭐⭐⭐★</td>
-            <td>SQL</td>
-            <td>⭐⭐⭐ ★ ★</td>
-        </tr>
-        <tr>
-            <td>Python</td>
-            <td>⭐⭐⭐ ★ ★</td>
-            <td>Web Development</td>
-            <td>⭐⭐ ★  ★  ★</td>
-        </tr>
-    </table>
-</body>
+    <input type="checkbox" id="check">
+    <label for="check" id="menu_icon"><img src="images/menu.png" for="checkbox"></label>
+    
+    <div class="menu" for="check">
+        <nav>
+            <a href="#Home" class="menu_btn">Home</a>
+            <a href="#Skills" class="menu_btn">Skills</a>
+            <a href="#Contact" class="menu_btn">Contact</a>
+        </nav>
+    </div>
 
-</html>
+    <div class="siteTop">
+        <a name="Home"><img id="moon" src="images/night.png" alt="moon-pic"></a>
+        <img id="topCloud" src="images/cloud.png" alt="">
+        <h1>Pedro Largacha</h1>
+        <br>
+        <h2 id="subTitle">CSPO, Developer and Entrepreneur</h2>
+        <img id="profilePic" src="images/profile.jpg" alt="profile-picture-PedroLargacha">
+        <img id="bottomCloud" src="images/cloud.png" alt="">
+        <img id="mountain" src="images/mountain.png" alt="">
+    </div>
+
+    <div class="middle-container">
+        <div class="profile">
+            <h3>Hi</h3>
+            <p>
+                I am a young python developer, that loves life, my wife, coffee and beer. Freshly married, although we live together for almost 6 years. Currently I am improving my developer skills, and looking for new challenges.
+            </p>
+        </div>
+        <hr>
+
+        <div class="skills">
+            <h2 id="mySkills"><a name="Skills">My Skills.</a></h2>
+            <div class="skill-row">
+                <img class="skills-pics" id="agile" src="images/team management.png"alt="team-management-pic">
+                <h3 class="skillTitle">Agile Team Management</h3>
+                <p>
+                    At BNY Mellon I worked with Agile teams as CSPO, and I have been working in the field since then for almost 8 years now. In my previous roles I helped the team to improve their processes and practices, and I have been able to learn a lot about Agile.
+                </p>
+            </div>
+            <div class="skill-row">
+                <img class="skills-pics" id="prototype"src="images/computer.png" alt="">
+                <h3 class="skillTitle">Find Solutions and build Prototypes</h3>
+                <p>
+                    I have been working with the software development life cycle for quite a while, and I have been able to learn a lot about the software development life cycle.My go is always to learn about the problem and iterate to find the most efficient solution.
+                </p>
+            </div>
+        </div>
+
+        <hr>
+        <div class="contact-me">
+            <h3>Get In Touch</h3>
+                <div class="quote">
+                    <h4 id="smooth-sea-quote">Smooth seas do not make skillful sailors.</h4>
+                    <p id="author">African Proverb</p>
+                </div>
+            <p>
+                I am currently looking for new challenges, and I am open to new opportunities. If you have any questions, please contact me.
+            </p>
+            <div class="contact">
+                <a name="Contact" class="btn" href="mailto:pepelargacha@nextgenesports.com.br">CONTACT ME</a>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="bottom-container">
+        <a href="https://www.linkedin.com/in/pedro-largacha/"><img class="footer-link" src="images/linkedin_logo_icon_189225.png" alt="LinkedIn"></a>
+        <a href="https://github.com/PepeLargacha"><img class="footer-link" src="images/GitHub-Mark-64px.png" alt="GitHub"></a>
+        <a href="https://replit.com/@PedroLargacha"><img class="footer-link" src="images/replit_logo_icon_170784.png" alt="Replit"></a>
+        <p class="reference1"><a class="reference" href="https://www.flaticon.com/free-stickers/moon" title="moon stickers">Moon stickers created by smashingstocks - Flaticon</a></p>
+        <p class="copyright">© 2022 Pedro Largacha.</p>
+    </div>
+</body>
